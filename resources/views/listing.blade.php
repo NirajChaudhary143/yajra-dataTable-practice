@@ -37,7 +37,7 @@
                 { data: 'keywords', name: 'keywords' },
                 { data: 'description', name: 'description' },
                 { data: 'content', name: 'content' },
-                { data: 'action', name: 'action', orderable: true, searchable: true }
+                // { data: 'action', name: 'action', orderable: true, searchable: true }
             ]
         });
     });

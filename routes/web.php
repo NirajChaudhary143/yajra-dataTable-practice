@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/blog',[blogController::class,'index']);
-// Route::get('blog/list',[blogController::class,'getBlog'])->name('blog.get');
+Route::get('/blog',[blogController::class,'setBlog']);
+Route::get('blog/list',[blogController::class,'getBlog'])->name('blog.get');
 
 Route::get('create', [blogController::class,'create']);
 Route::get('index', [blogController::class,'index']);

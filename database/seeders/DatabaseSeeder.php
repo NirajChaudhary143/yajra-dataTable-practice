@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $faker= Faker::create();
-        foreach(range(1,200) as $key => $value){
+        foreach(range(1,50) as $key => $value){
             DB::table('users')
             ->insert([
                 
